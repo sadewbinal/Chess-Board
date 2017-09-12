@@ -1,0 +1,80 @@
+#holder{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /*width: 100px;*/
+    /*height: 100px;*/
+}
+.container{
+    position: absolute;
+    left: 05%;
+    top: 03%;
+}
+body{
+    perspective: 200px;
+    perspective: 200px;
+
+}
+h1{
+    color: darkred;
+}
+.board{
+    position:absolute;
+    left: 60%;
+    top: 100%;
+    width: 810px;
+    height: 810px;
+    border: solid 5px;
+    border-color: #b58863;
+    transform: rotateY(5deg);
+    transform: rotateX(5deg);
+
+    box-shadow: 10px 10px 5px grey;
+}
+
+.colorA{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #FFEEEE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.colorB{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.colorA:hover{
+    width: 100px;
+    height: 100px;
+    /*border: 2px dashed black;*/
+    background-color: #00B5AD;
+}
+.colorB:hover{
+    width: 100px;
+    height: 100px;
+    /*border: 2px dashed black;*/
+    background-color: #3498db;
+}.chessIcons{
+    padding-top: 12px;
+}
+.selectedBox{
+    border: ridge #000000;
+    background-color:#ffdf05;
+}
+.TrapBox{
+    border: 5px dotted #EF404A;
+    background-color:#FF851B;
+}
+.button{
+   font-size: large;
+}
+
